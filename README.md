@@ -1,9 +1,20 @@
 <h1 align="center">Sobre esse Projeto</h1>
 <p align="center">Trata-se de um projeto de estudos em Laravel.</p>
 <p align="center">Usarei o Laravel como base para a criação de um CRU simples.</p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+
+<h3>Passos a seguir para que o projeto funcione:</h3>
+<h4>1º - Crie um Controle chamado <b>BookController</b> com o comando abaixo</h4>
+<p>php artisan make:controller BookController --resource</p>
+
+<h5>Altere os seghuintes arquivos: arquivos</h5>
+<h6>route/web.php com a seguointe alteração: <b>Route::get('/', [BookController::class, 'index']);</b></h6>
+
+<p>php artisan make:controller BookController --resource</p>
+
 
 ## Sobre o Laravel:
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
